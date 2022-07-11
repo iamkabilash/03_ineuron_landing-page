@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat:wght@500;600&display=swap');
+
+body{
+    background: linear-gradient(90deg, #4cd0f1, #1bebe7);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+span{
+    color: red;
+    font-weight: 700;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -20px;
+    letter-spacing: 3px;  
+}
+p:hover{
+    color: red;
+}
+
+.primary-button{
+    padding:10px 15px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #8bbef4;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.primary-button:hover{
+    cursor:pointer;
+    background-color: #0d7cf3;
+    color: azure;
+    box-shadow: 0 0 40px 40px #111111 inset;
+}
+
+.btn-margin{
+    margin-top: 75px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(65, 52, 52);
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
